@@ -18,7 +18,7 @@ Given an **array of integers** `temperatures` represents the daily temperatures,
 
 > For each day i:
 > - While stack isn’t empty and current temp ≥ stack’s top temp -> pop the stack.
-> - If stack becomes empty → no warmer day ahead → ans[i] = 0
+> - If stack becomes empty -> no warmer day ahead -> ans[i] = 0
 > - Else -> ans[i] = st.top() - i (distance to warmer day)
 
 - Finally, push current index into the stack.
